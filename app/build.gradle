@@ -67,6 +67,10 @@ dependencies {
 //    implementation 'com.winfooz:validation:v1.0.0-beta1'
 //    kapt 'com.winfooz:validation-compiler:v1.0.0-beta1'
 
+    // BouncyNestedScrollView
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation files('libs/bouncy-release.aar')
+
     // UI Tests
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4:1.1.1'
     testImplementation 'junit:junit:4.13.2'
